@@ -57,4 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ここから追加
 gem "net-smtp"
+gem 'image_processing', '~> 1.2' # パスワードなどの秘密情報を管理する
+gem 'dotenv-rails' # 画像処理を行う
+gem "aws-sdk-s3", require: false # S3へアクセスする
 # ここまで追加
